@@ -1,0 +1,95 @@
+*{
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   /* border: 1px solid darkorange; */
+}
+body{
+   background:rgba(0, 0, 0, 0.845);
+}
+.container{
+   width: 1440px;
+   height: 90vh;
+   position: relative;
+   margin: 0 auto;
+}
+
+.acc-settings{
+   position: absolute;
+
+
+   width: 700px;
+   height: 700px;
+   background: #fcec51;
+   margin-left: 370px;
+   z-index: 1;
+}
+.acc-settings a{
+   position: absolute;
+
+   color: #000;
+   font-size: 1.5em;
+   font-weight: bold;
+   opacity: 0.6;
+   letter-spacing: -1px;
+}
+a.btn-cancel{
+   top: 620px;
+   left: 420px;
+}
+a.btn-save{
+   top: 620px;
+   left: 560px;
+}
+.image{
+   position: absolute;
+   top: 120px;
+   left: 570px;
+
+   background-image: url("../imgs/Lonely.man.by.the.shore.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 0px;
+
+   width: 116px;
+   height: 121px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   border: 3px solid #fff;
+   z-index: 3;
+}
+
+.form-box{
+   position: absolute;
+   top: 200px;
+   left: 500px;
+   width: 650px;
+   height: 400px;
+   background:#fff;
+   border:1px solid rgba(0,0,0,0.350);
+   z-index:2;
+   box-shadow: -9px 12px 22px 0px #000;
+
+}
+
+form{
+   margin-top: 50px;
+   margin-left: 50px;
+}
+label, input{
+   font-weight: bold;
+   margin-top: 20px;
+   font-size: 17px;
+   cursor: pointer;
+}
+
+input{
+   color:#000;
+   border:none;
+   border-bottom:1px solid rgba(0, 0, 0, 0.413)
+}
+textarea{
+   cursor: pointer;
+}

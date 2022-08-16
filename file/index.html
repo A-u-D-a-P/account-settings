@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../styles/style.css">
+   <!-- style css -->
+   <title>Account settings</title>
+</head>
+
+<body>
+   <div class="container">
+      <div class="acc-settings">
+         <h1 style="display: inline-block; margin-top: 50px; margin-left: 80px; vertical-align: middle;">Account
+            settings</h1>
+         <img src="../imgs/x-icon.jpg" alt="x-icon"
+            style="width: 30px; margin-left: 240px; opacity: 0.5; vertical-align: middle; margin-top: 35px;">
+         <a href="#" class="btn-cancel">Cancel</a>
+         <a href="#" class="btn-save">Save</a>
+      </div>
+      <div class="image"></div>
+      <div class="form-box">
+         <form action="https://echo.htmlacademy.ru" method="post">
+            <label for="username" style="text-transform: uppercase;"> username
+               <input type="text" id="username" name="username" autocomplete="off" placeholder="Enter your username"
+                  style="display: block; width: 90%;" required>
+            </label>
+            <label for="first-name" style="text-transform: uppercase; display: inline-block;"> First name
+            </label>
+            <label for="last-name" style="text-transform: uppercase; margin-left: 150px;"> Last name</label>
+            <label for="text" style="display: block; margin-top: -10px;"></label>
+            <input type="text" id="first-name" placeholder="Enter your first name" required
+               style="display: inline-block; width: 41%;">
+
+            <input type="text" id="last-name" style="display: inline-block; margin-top: -10px; width: 47.5%;" placeholder="Enter your last name">
+
+            <label for="email" style="text-transform: uppercase; display: block;"> email
+               <input type="email" id="email" name="email" autocomplete="off" placeholder="Enter your email"
+                  style="display: block; width: 90%;" required>
+            </label>
+
+            <label for="bio" style="text-transform: uppercase; display: block;"> bio
+               <input type="text" id="bio" name="bio" autocomplete="off" placeholder="Tell us about yourself"
+                  style="display: block; border:none; color:#000;">
+            </label>
+            <textarea name="bio" id="tell_us" rows="1" style="border: none; border-bottom:1px solid rgba(0, 0, 0, 0.413); width: 90%;"></textarea>
+         </form>
+      </div>
+   </div>
+</body>
+
+</html>
